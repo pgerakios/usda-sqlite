@@ -13,7 +13,7 @@ CREATE TABLE `food` (
   nitrogen_factor float NOT NULL,
   protein_factor float NOT  NULL,
   fat_factor float NOT NULL,
-  calorie_factor float NOT NULL
+  carb_factor float NOT NULL
 );
 CREATE INDEX food_short_desc_search_index ON food(short_desc);
 CREATE INDEX food_long_desc_search_index ON food(long_desc);
